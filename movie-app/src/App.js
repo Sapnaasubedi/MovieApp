@@ -1,4 +1,4 @@
-import { Row, Col, Flex } from "antd";
+import { Row, Col } from "antd";
 import React from "react";
 import SearchBox from "./components/SearchBox";
 
