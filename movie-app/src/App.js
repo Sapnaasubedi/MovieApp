@@ -1,6 +1,7 @@
 import { Row, Col } from "antd";
 import React from "react";
 import SearchBox from "./components/SearchBox";
+import MovieCard from "./components/MovieCard";
 
 const App = () => {
   return (
@@ -9,6 +10,7 @@ const App = () => {
        
         <Col span={4} offset={18}>
           <SearchBox />
+          <MovieCard/>
         </Col>
       </Row>
     
