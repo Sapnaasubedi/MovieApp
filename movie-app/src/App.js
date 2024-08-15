@@ -1,13 +1,18 @@
-import { Input } from 'antd';
-const { Search } = Input;
-function App() {
-  const onSearch = (value, _e, info) => console.log(info?.source, value);
+import { Row, Col, Flex } from "antd";
+import React from "react";
+import SearchBox from "./components/SearchBox";
 
+const App = () => {
   return (
-    <div className="App">
-       <Search placeholder="input search text" onSearch={onSearch} style={{ width: 200 }} />
-    </div>
+   
+      <Row style={{ backgroundColor: "#094887" }} >
+       
+        <Col span={4} offset={18}>
+          <SearchBox />
+        </Col>
+      </Row>
+    
   );
-}
+};
 
 export default App;
