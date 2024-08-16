@@ -13,13 +13,16 @@ const MovieCard = () => {
             src="https://os.alipayobjects.com/rmsportal/QBnOOoLaAfKPirc.png"
           />
         }
-      > <Space><Text style={{ color: "white" }} strong>
-      Good girls guid to murder
-    </Text>
-    <Text style={{ color: "yellow" }} strong>
-      4
-    </Text></Space>
-        
+      >
+       
+        <Space>
+          <Text style={{ color: "white" }} strong>
+            Good girls guid to murder
+          </Text>
+          <Text style={{ color: "yellow" }} strong>
+            4
+          </Text>
+        </Space>
       </Card>
     </div>
   );
