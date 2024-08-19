@@ -9,12 +9,11 @@ const MovieCard = () => {
         style={{ width: 240, backgroundColor: "#1F316F", border: "none" }}
         cover={
           <img
-            alt="example"
+            alt="cover"
             src="https://os.alipayobjects.com/rmsportal/QBnOOoLaAfKPirc.png"
           />
         }
       >
-       
         <Space>
           <Text style={{ color: "white" }} strong>
             Good girls guid to murder
