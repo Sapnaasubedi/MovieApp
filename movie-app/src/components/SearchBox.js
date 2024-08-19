@@ -7,7 +7,6 @@ const SearchBox = () => {
 
   return (
     <div style={{ margin: 30 }}>
-      {" "}
       <Input
         size="large"
         onSearch={onSearch}
