@@ -8,8 +8,8 @@ const MovieCard = () => {
 
   useEffect(() => {
     const fetchImage = async () => {
-      const collectionId = "your_collection_id"; // Replace with your actual collection ID
-      const apiKey = "c2707f7fc933432f575f53e7abb52f0a"; // Replace with your actual API key
+      const collectionId = "your_collection_id"; 
+      const apiKey = "c2707f7fc933432f575f53e7abb52f0a"; 
       const url = `https://api.themoviedb.org/3/discover/movie?include_adult=false&include_video=false&language=en-US&page=1&sort_by=popularity.desc&api_key=${apiKey}`;
 
       try {
